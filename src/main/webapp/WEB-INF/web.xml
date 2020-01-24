@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>TP2-Servlets</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>TP2CoursesServlet</display-name>
+    <servlet-name>TP2CoursesServlet</servlet-name>
+    <servlet-class>TP2CoursesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TP2CoursesServlet</servlet-name>
+    <url-pattern>/TP2CoursesServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
